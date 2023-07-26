@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/nama"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RIZKY YANUARTA"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/nim"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="87dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C2C021043"
+        android:layout_below="@id/nama"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/kalkulator"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/nim"
+        android:layout_width="1200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Kalkulator" />
+
+    <Button
+        android:id="@+id/Konversi_Suhu"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/kalkulator"
+        android:layout_width="1200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Konversi Suhu" />
+
+    <Button
+        android:id="@+id/index"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/Konversi_Suhu"
+        android:layout_width="1200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Index UMT" />
+
+</RelativeLayout>
